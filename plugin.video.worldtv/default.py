@@ -6,9 +6,27 @@ def COUNTRIES():
 
 
 def SPAIN():
-	addLink('Intereconomia', 'mms://www.intereconomia.com/INTERECONOMIA-TV', '')
+	addLink('24H', 'rtmp://rtvefs.fplive.net:1935/rtve-live-live?ovpfv=2.1.2 playpath=RTVE_24H_LV3_WEB_NOG?aksessionid=1357891288814_961809', '')
+	addLink('Bodegalia TV', 'rtmp://extondemand.livestream.com/ondemand playpath=trans/dv04/mogulus-user-files/chbodegaliatv/2010/01/30/043d6064-a205-4bd3-b2a1-19749cc3fd5c', '')
+	addLink('Canal 33', 'rtmp://flash79.ustream.tv:1935/ustreamVideo/12050622 playpath=streams/live_1', '')
+	addLink('Canal Vasco', 'rtmp://cp70268.live.edgefcs.net/live playpath=eitb-CanalVasco@5519', '')
+	addLink('Cuatro', 'rtmp://esmediasetlivefs.fplive.net/esmediasetlive-live playpath=esmediaset12?token=c3RhcnRfdGltZT0yMDEzMDExMTExNDgzMCZlbmRfdGltZT0yMDEzMDExMTExNDg0NiZkaWdlc3Q9ZDNhY2NkMWU5OTUyZjE5YzdmMmZkOGUwYzJiNGFkMzA=', '')
+	addLink('Euronews', 'rtmp://fr-par-1.stream-relay.hexaglobe.net:1935/rtpeuronewslive es_video150_flash_all.sdp', '')
+	addLink('ETB SAT', 'rtmp://cp70268.live.edgefcs.net/live playpath=eitb-ETBSat@5219', '')
+	addLink('IB3', 'rtmp://ib3tvlivefs.fplive.net/ib3tvlive-live playpath=streamib3', '')
+	addLink('Intereconomia', 'rtmp://media.intereconomia.com/live playpath=intereconomiatv1', '')
+	addLink('La Sexta', 'rtmp://antena3fms35livefs.fplive.net:1935/antena3fms35live-live playpath=stream-lasexta', '')
+	addLink('TDP', 'rtmp://rtvegeofs.fplive.net:1935/rtvegeo-live-live?ovpfv=2.1.2 playpath=RTVE_TDP_LV3_WEB_GEO?aksessionid=1357891017538_156935', '')
+	addLink('Telebilbao', 'rtmp://149.11.34.6/live playpath=telebilbao.stream', '')
+	addLink('Telecinco', 'rtmp://esmediasetlivefs.fplive.net/esmediasetlive-live playpath=esmediaset31?token=c3RhcnRfdGltZT0yMDEzMDExMTExNDQ0OCZlbmRfdGltZT0yMDEzMDExMTExNDUwNCZkaWdlc3Q9ZmEzZGYyNjk2ZDJlYjMzNDUyNTVhOTM2Nzk2N2QzNDY=', '')
+	addLink('Telemadrid Sat', 'rtmp://cp118140.live.edgefcs.net:1935/live?videoId=110032781001&lineUpId=&pubId=104403117001&playerId=111868723001&affiliateId= playpath=TSAtelemadridsat@47720', '')
+	addLink('TV3 24', 'rtmp://tv-nogeo-flashlivefs.fplive.net:1935/tv-nogeo-flashlive-live/?ovpfv=1.1 playpath=stream_324_FLV?ua=Mozilla/5.0%20%28Windows%20NT%205.1%29%20AppleWebKit/537.11%20%28KHTML%2C%20like%20Gecko%29%20Chrome/23.0.1271.97%20Safari/537.11', '')
+	addLink('TVE1', 'rtmp://cp68975.live.edgefcs.net:1935/live?ovpfv=2.1.2 playpath=LA1_AKA_WEB_NOG@58877?aksessionid=1357890489362_60103', '')
+	addLink('TVE2', 'rtmp://cp68975.live.edgefcs.net:1935/live?ovpfv=2.1.2 playpath=LA2_AKA_WEB_NOG@60554?aksessionid=1357890865088_369124', '')
+
 
 def UKRAINE():
+	# ToDo: http://www.parom.tv/ -> Need session ID with regex
 	#addLink('1 Auto', 'rtmp://ua.parom.tv:1935/stream/stream110', '')
 	addLink('1 TV (Pershiy)','rtsp://212.40.43.10:1935/ut1s/_definst_/ut1_2','')
 	#addLink('1+1', 'rtmp://95.67.65.135:1935/rtplive/1plus1_m.stream', '')
@@ -25,12 +43,11 @@ def UKRAINE():
 	#addLink('UNKNOWN', 'rtmp://host6.jampo.com.ua/stream/ukraine', '')
 	addLink('Euronews', 'rtmp://fr-par-1.stream-relay.hexaglobe.net:1935/rtpeuronewslive/ua_video750_flash_all.sdp pageurl=http://ua.euronews.com/news/streaming-live/ swfurl=http://ua.euronews.com/media/player_live_1_14.swf', '')
 	#addLink('Futbol', 'rtmp://95.67.65.135:1935/rtplive/futball_m.stream', '')
-	addLink('GTRK Crimea', 'rtmp://mail.tv.crimea.ua/tv.crimea.com/tv.crimea.com', '')
+	addLink('GTRK Crimea TV', 'rtmp://mail.tv.crimea.ua/tv.crimea.com/tv.crimea.com', '')
 	#addLink('ICTV', 'rtmp://95.67.65.136:1935/rtplive/ictv_m.stream', '')
 	addLink('Inter','rtsp://212.40.43.10:1935/inters/_definst_/inter_2', '')
 	addLink('K1','rtsp://212.40.43.10:1935/k1s/_definst_/k1_3','')
 	#addLink('K2', 'rtmp://95.67.65.136:1935/rtplive/k2_m.stream', '')
-	#addLink('Magnolia TV', 'rtmpe://lb1.itcons.net.ua/magnolias-redir/magnolia_3', '')
 	addLink('Magnolia','rtsp://212.40.43.10:1935/magnolias/_definst_/magnolia_3', '')
 	#addLink('M1', 'rtmp://95.67.65.135:1935/rtplive/m1_m.stream', '')
 	#addLink('M2', 'rtmp://95.67.65.135:1935/rtplive/m2_m.stream', '')
